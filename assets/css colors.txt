@@ -1,0 +1,4 @@
+btn of buy pusher color #009080
+the second div color-- #007bbf
+ border radius of the numbers ====  #62a1d0
+account nav bar color ==== #86909a

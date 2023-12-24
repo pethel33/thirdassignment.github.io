@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <header >
+      <nav class="pusher_nav">
+        <div class="product_logo">
+          <img src="./assets/wppusher-logo copy.png" alt="pusher_logo" />
+        </div>
+        <div class="product_menu">
+          <ul>
+            <li>Download</li>
+            <li>Learn more</li>
+            <li>Pricing</li>
+            <li>Help</li>
+            <li class="account">Acount</li>
+          </ul>
+        </div>
+      </nav>
+    </header> -->
+
+    <header class="production_header">
+      <div class="product_logo">
+        <img src="./assets/wppusher-logo copy.png" />
+      </div>
+
+      <div class="product_menu">
+        <ul>
+          <li>Download</li>
+          <li>Learn more</li>
+          <li>Pricing</li>
+          <li>Help</li>
+          <li class="account">Account</li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- <section class="container"> -->
+    <section class="production_container">
+      <!-- big-left-%width -->
+      <div class="product_checkout">
+        <div class="checkout_layer">
+          <header class="title"><h3>Checkout</h3></header>
+        </div>
+        <div class="product_info">
+          <div class="name">
+            <div class="no_one">1</div>
+            <div class="header-info">Your Basic Information</div>
+          </div>
+          <!-- border radius of 25% 1 -->
+          <div class="">
+            <form>
+              <div class="formGroup">
+                <div class="input_group">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    placeholder="Jane"
+                    required
+                  />
+                </div>
+                <div class="input_group">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" placeholder="Doe" required />
+                </div>
+              </div>
+
+              <div class="formGroup">
+                <div class="input_groupEmail">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="janedoe@example.com"
+                    required
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="product_info">
+          <!-- border radius of 25% 2 -->
+          <div class="name">
+            <div class="no_one">2</div>
+            <div class="header-info">Your Payment Information</div>
+          </div>
+
+          <form>
+            <div class="formGroup">
+              <div class="input_groupCard">
+                <label for="creditCard">Credit Card</label>
+                <!-- research for cardnumber -->
+                <input
+                  type="text"
+                  id="creditCard"
+                  placeholder="Card Number         
+                  
+                  MM / YY   CVC"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="product_button">
+          <button class="btn_product">Buy WP Pusher</button>
+          <div class="support_info">
+            <img src="./assets/support.png" alt="" />
+          </div>
+          <div class="footer_logo">
+            <img src="./assets/Shape.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- second box -->
+      <div class="product_freelancer">
+        <article class="freelancer_container">
+          <div class="product_indollars">
+            <p class="freelancer-text">Freelancer</p>
+            <div class="product_renewal">
+              <div class="dollar_sign">$</div>
+              <div class="text">99 <span class="year-text">/year</span></div>
+            </div>
+            <small class="renew-text"> Automatically renews after 1 year</small>
+          </div>
+
+          <div class="list">
+            <img src="./assets/Combined Shape Copy.png" />
+            <p class="list-text">Use on 5 client sites</p>
+            <img src="./assets/Combined Shape Copy.png" />
+            <p class="list-text">Private repositories</p>
+            <img src="./assets/Combined Shape Copy.png" />
+            <p class="list-text">Email support</p>
+          </div>
+
+          <p class="support">Need <strong>20 </strong> client site?</p>
+          <p class="support_two">Switch to <i>Agency</i> plan</p>
+
+          <div class="freelancer_info">
+            <p>
+              FTP is horrible to deal with. WP Pusher solves that issue, and the
+              customer support is awesome!.
+            </p>
+            <div class="freelancer_profile">
+              <img src="./assets/Bitmap.png" alt="" />
+              <p class="username">Kirk Bread</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="production_footer">
+      &copy; 2018 WP Pusher IVS · <span>Terms of Service</span>
+    </footer>
+  </body>
+</html>
